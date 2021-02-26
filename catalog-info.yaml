@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: TestingGolangTemplate
+  description: Testing the backstage golang template capabilities
+  annotations: 
+    github.com/project-slug: MatthiasScholzTW/demo_backstage_golang
+    backstage.io/source-ref: "https://github.com/MatthiasScholzTW/demo_backstage_golang"
+    backstage.io/techdocs-ref: url:https://github.com/MatthiasScholzTW/demo_backstage_golang
+    backstage.io/github-actions-id: https://github.com/MatthiasScholzTW/demo_backstage_golang
+spec:
+  type: service
+  lifecycle: experimental
+  owner: Matthias Scholz
